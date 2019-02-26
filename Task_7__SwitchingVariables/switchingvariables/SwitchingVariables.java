@@ -1,3 +1,5 @@
+package switchingvariables;
+
 import static io.OutputWorker.emptyLine;
 import static io.OutputWorker.printlnToConsole;
 
@@ -34,6 +36,9 @@ public class SwitchingVariables
         a ^= b;
         printlnToConsole("after:");
         demonstrateVariables(a, b);
+        
+        
+        
         
     }
     
