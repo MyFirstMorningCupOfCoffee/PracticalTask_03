@@ -4,6 +4,7 @@ import static io.InputWorker.readDoubleFromConsole;
 import static io.OutputWorker.printlnToConsole;
 import static io.OutputWorker.printToConsole;
 import static io.OutputWorker.emptyLine;
+import static io.OutputWorker.printToConsoleTwoRowsTable;
 
 public class MyLittlePetWeigher
 {
@@ -21,12 +22,13 @@ public class MyLittlePetWeigher
         double weightInMillis = Weigher.getInMilligrams(weightInKilos);
         double weightInTons = Weigher.getInTons(weightInKilos);
         
-        printlnToConsole(
-            "Table of results:",
-            "milligrams: " + String.format("%.2f", weightInMillis),
-            "     grams: " + String.format("%.2f", weightInGrams),
-            " kilograms: " + String.format("%.2f", weightInKilos),
-            "      tons: " + String.format("%.2f", weightInTons));
+        
+        printlnToConsole("Table of results:");
+        printToConsoleTwoRowsTable(
+            " milligrams:", String.format("%.2f", weightInMillis),
+            " grams:",      String.format("%.2f", weightInGrams),
+            " kilograms:",  String.format("%.2f", weightInKilos),
+            " tons:",       String.format("%.2f", weightInTons));
     }
     
     
