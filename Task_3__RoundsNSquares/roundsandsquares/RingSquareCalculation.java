@@ -1,3 +1,5 @@
+package roundsandsquares;
+
 import static io.InputWorker.readDoubleFromConsole;
 import static io.OutputWorker.emptyLine;
 import static io.OutputWorker.printToConsole;
