@@ -111,7 +111,6 @@ public class OutputWorker
             sb.append(" ");
         }
         
-        
         return sb.toString();
     }
 
