@@ -25,10 +25,10 @@ public class MyLittlePetWeigher
         
         printlnToConsole("Table of results:");
         printToConsoleTwoRowsTable(
-            " milligrams:", String.format("%.2f", weightInMillis),
-            " grams:",      String.format("%.2f", weightInGrams),
-            " kilograms:",  String.format("%.2f", weightInKilos),
-            " tons:",       String.format("%.2f", weightInTons));
+            "milligrams:", String.format("%.2f", weightInMillis),
+            "grams:",      String.format("%.2f", weightInGrams),
+            "kilograms:",  String.format("%.2f", weightInKilos),
+            "tons:",       String.format("%.2f", weightInTons));
     }
     
     
