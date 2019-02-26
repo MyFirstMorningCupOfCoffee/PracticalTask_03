@@ -54,25 +54,25 @@ public class MeansOfDigits
     
     private static double calcArythmMean(int ... numbers)
     {
-        int sum = 0;
+        double sum = 0;
         
         for(int i : numbers)
         {
             sum += i;
         }
         
-        return sum / (numbers.length + 0.0);
+        return sum / numbers.length;
     }
     
     private static double calcGeomMean(int ... numbers)
     {
-        long mult = 1;
+        double mult = 1;
         
         for(int i : numbers)
         {
             mult *= i;
         }
         
-        return Math.pow(mult, 1.0 / numbers.length);
+        return Math.pow(mult, 1 / numbers.length);
     }
 }
