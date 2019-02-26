@@ -1,9 +1,9 @@
 package petweigher;
 
-import static petweigher.InputWorker.readDoubleFromConsole;
-import static petweigher.OutputWorker.printlnToConsole;
-import static petweigher.OutputWorker.printToConsole;
-import static petweigher.OutputWorker.emptyLine;
+import static io.InputWorker.readDoubleFromConsole;
+import static io.OutputWorker.printlnToConsole;
+import static io.OutputWorker.printToConsole;
+import static io.OutputWorker.emptyLine;
 
 public class MyLittlePetWeigher
 {
